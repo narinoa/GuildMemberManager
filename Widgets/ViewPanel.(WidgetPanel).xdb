@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>ViewPanel</Name>
+	<Children>
+		<Item href="Close.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="CheckBox/CheckBox.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="CornerCrossLeave.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="Text.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="HeaderText.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="Container.(WidgetScrollableContainer).xdb#xpointer(/WidgetScrollableContainer)" />
+	</Children>
+	<BackLayer href="Textures/MainFrame.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>300</Size>
+			<Pos>-150</Pos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>250</Size>
+		</Y>
+	</Placement>
+	<TransparentInput>false</TransparentInput>
+</WidgetPanel>
